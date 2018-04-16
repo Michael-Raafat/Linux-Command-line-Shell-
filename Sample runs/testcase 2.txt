@@ -1,0 +1,11 @@
+echo " $PATH "
+echo $PATH / $HOME
+export x=5
+printenv
+export v='-l -a'
+ls $v
+gedit&
+ls&
+ps&
+ps
+echo "dsfafd'fadggdg"afdafd'

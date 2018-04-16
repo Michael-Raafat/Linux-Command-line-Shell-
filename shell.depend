@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1507768644 source:/home/michael/workspace/shell/environment.c
+	"environment.h"
+	"file_processing.h"
+
+1507193956 /home/michael/workspace/shell/environment.h
+
+1507783210 /home/michael/workspace/shell/file_processing.h
+	<stdio.h>
+
+1507783210 source:/home/michael/workspace/shell/main.c
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+	<wait.h>
+	<stdio.h>
+	<sys/stat.h>
+	<dirent.h>
+	<errno.h>
+	"variables.h"
+	"file_processing.h"
+	"command_parser.h"
+	"commands.h"
+	"environment.h"
+
+1507193956 /home/michael/workspace/shell/variables.h
+
+1507783210 /home/michael/workspace/shell/command_parser.h
+	<regex.h>
+
+1507193859 /home/michael/workspace/shell/commands.h
+
+1507783727 source:/home/michael/workspace/shell/command_parser.c
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<regex.h>
+	<stdio.h>
+	"command_parser.h"
+	"variables.h"
+
+1507774146 source:/home/michael/workspace/shell/commands.c
+	"commands.h"
+	<unistd.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<dirent.h>
+	<sys/types.h>
+	<pwd.h>
+
+1507783210 source:/home/michael/workspace/shell/file_processing.c
+	"file_processing.h"
+	<string.h>
+	<stdlib.h>
+
+1507770474 source:/home/michael/workspace/shell/variables.c
+	"variables.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

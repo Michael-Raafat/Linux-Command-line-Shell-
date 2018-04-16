@@ -1,0 +1,12 @@
+cd /
+cd -
+x='-l -a'
+echo $x
+ls $x
+x='helll     dsaff'
+echo "$x"
+echo $x
+echo '$x'
+ps
+gedit&
+ps

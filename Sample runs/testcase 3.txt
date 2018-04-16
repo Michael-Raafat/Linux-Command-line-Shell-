@@ -1,0 +1,16 @@
+echo 		"hello       world"
+echo '$PATH'
+cd /
+ls
+ls -l
+ls -a -l
+cd /
+bin/ps
+pwd
+cd ~
+x=~
+echo $x
+x='~'
+echo "$x"
+echo '$x'
+echo "dsagdgad
